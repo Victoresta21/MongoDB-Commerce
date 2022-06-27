@@ -2,4 +2,4 @@ db.produtos.find({ }, {
   _id: false,
   nome: true,
   vendidos: true,
-}).limit( 1 );
+}).limit(1);
