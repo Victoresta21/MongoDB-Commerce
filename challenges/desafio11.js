@@ -8,5 +8,5 @@ db.produtos.find({
   _id: false,
   nome: true,
   curtidas: true,
-  vendidos: true
+  vendidos: true,
 });
