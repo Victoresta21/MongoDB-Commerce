@@ -3,7 +3,8 @@ db.produtos.updateMany(
   { $addToSet: { ingredientes: "bacon" } },
 );
 
-db.produtos.find({},
+db.produtos.find(
+  {},
   {
     _id: false,
     nome: true,
